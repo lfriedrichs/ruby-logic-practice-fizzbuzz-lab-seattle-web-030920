@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number) 
-  output = number / 3 == 0 ? "Fizz" : '' + number / 5 == 0 ? "Buzz" : '' 
+  output = (number / 3 == 0 ? "Fizz" : '') + (number / 5 == 0 ? "Buzz" : '') 
   if output = '' 
     return nil 
   end 
