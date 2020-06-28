@@ -3,8 +3,9 @@
 
 def fizzbuzz(number) 
   output = (number / 3 == 0 ? "Fizz" : '') + (number / 5 == 0 ? "Buzz" : '') 
-  if output = '' 
-    return nil 
-  end 
-  output
+  if output.length > 1
+    return output 
+  else  
+    return nil
+  end
 end 
